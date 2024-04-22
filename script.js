@@ -46,7 +46,7 @@ async function getPokemonData(name){
             Special_Atk: statSpeAtk,
             Special_Def: statSpeDef,
             Speed: statSpeed,
-            Base: {Base_experience: baseExp, Weight: weight, Height: height}
+            Base: {Base_experience: baseExp, Weight_kg: weight, Height_cm: height}
         };
         //console.log(pokemonData.stats[0].base_stat)
         //console.log(Hp)
